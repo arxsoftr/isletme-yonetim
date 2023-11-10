@@ -1,0 +1,40 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+  background-color: #f9f9f9;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.navbar-profile .nav-link:after {
+  content: none;
+}
+
+.navbar-profile .user-info {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 10px;
+  list-style-type:none;
+}
+
+.navbar-profile .user-info i {
+  margin-right: 5px;
+  list-style-type:none;
+}
